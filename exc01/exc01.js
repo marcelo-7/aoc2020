@@ -1,6 +1,6 @@
 var fs = require('fs');
 
-var filename = 'data1.txt';
+var filename = 'data01.txt';
 
 var hej = fs.readFile(filename, 'utf8', function(err, data) {
 
